@@ -11,6 +11,8 @@ public class CalculatorTest {
     public static void init(){
         calculadora = new Calculadora();
     }
+
+    // Test para las operaciones de la calculadora
     @Test
     public void whenCalculatorInitializedThenReturnTrue(){
         assertTrue(calculadora.getStatus());
